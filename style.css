@@ -33,15 +33,17 @@
 
   .nav-link{
     font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
     color: #d2d2d2ca;
   }
 
   .hero{
-    background-image: url("images/bg-image.png");
+    background: linear-gradient(to bottom, rgba(11, 11, 11, 1), rgba(11, 11, 11, 0), rgba(11, 11, 11, 1)),
+    url("images/bg-image.jpg");
     min-height: 100vh;
     background-position: center;
-    background-attachment: fixed;
-    color:greenyellow;
+    position: relative;
+
 }
 
 .biography{
@@ -56,11 +58,27 @@
 
 
 
-.col{
+.col-11 h1{
 
-    color:greenyellow;
+    font-size: 50px;
+    padding-bottom: 20px;
+
 }
 
+.col-11 h2{
+
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.col-11 h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
 
 
 .timeline h2{
@@ -159,4 +177,15 @@
 .music h2{
     padding-left: 100px;
     padding-bottom: 40px;
+}
+
+footer{
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+footer ul{
+    background-color: #232323;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 15px;
 }
