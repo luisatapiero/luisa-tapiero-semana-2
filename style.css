@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+
+  li,
+  button,
+  h1,
+  h2,
+  h3{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #EEBFA9;
+  }
+
+  p{
+    font-family: 'DM Sans', sans-serif;
+    color: #d2d2d2ca;
+    line-height: 170%;
+    margin-bottom: -10px;
+  }
+
+  .col-6 p{
+    padding-top: 30px;
+  }
+
+  header{
+    background-color: #0B0B0B;
+  }
+
+  .nav-link{
+    font-family: 'DM Sans', sans-serif;
+    color: #d2d2d2ca;
+  }
+
+  .hero{
+    background-image: url("images/bg-image.png");
+    min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    color:greenyellow;
+}
+
+.biography{
+    padding-top: 100px;
+    background-color: #0B0B0B;
+}
+
+.carousel-inner{
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+.col{
+
+    color:greenyellow;
+}
+
+
+
+.timeline h2{
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+
+.timeline{
+	background-color: #0B0B0B;
+	min-height: 100vh;
+	padding: 100px 15px;
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #232323;
+	left: calc(50% - 1px);
+}
+.timeline-item{
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: #EEBFA9;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+}
+.timeline-date{
+    font-family: 'DM Sans', sans-serif;
+    color: #d2d2d2ca;
+	font-size: 18px;
+	color: #EEBFA9;
+	margin:6px 0 15px;
+}
+.timeline-content{
+    background-color: #232323;
+	padding: 30px;
+	border-radius: 5px;
+}
+.timeline-content h3{
+    font-size: 20px;
+	color: #ffffff;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #d2d2d2ca;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.music{
+    background-color: #0B0B0B;
+}
+.card{
+    padding-left: 20px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    background-color: #232323;
+}
+
+.card img{
+    padding-top: 20px;
+}
+
+.card p{
+    padding-bottom: 20px;
+}
+
+.music h2{
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
